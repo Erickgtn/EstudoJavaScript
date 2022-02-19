@@ -25,4 +25,7 @@ let pontos = 101;
 let tipo = pontos > 100 ? 'Premium':'Normal';
 console.log (tipo);
 
-//OPERADORES LÓGICOS
+//OPERADORES LÓGICOS AND(&&), OR(||), NOT(!)
+console.log(true && true); //retorna true se for ambos true
+console.log(true || false); // retorna true se ao menos um for true
+console.log(!true);// nega a operação 
