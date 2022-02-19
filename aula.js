@@ -13,11 +13,14 @@ let sobrenome; // undefined
 let corSelecionado = null; // Redefinir um valor
 
 //Objeto
-let pessoa = {
-    nome: 'Eric',
+
+//let pessoa ={}; // objeto vazio
+
+let pessoa = { // objeto não vazio
+    nome: 'Eric', // Chave: 'valor'
     idade: 25,
     cidade:"Camaçari"
 };
-console.log(pessoa.cidade)
+//console.log(pessoa.cidade)
 
-//Arrays
+
